@@ -1,0 +1,26 @@
+{
+    "name": "centralapps/collections",
+    "type": "library",
+    "description": "A set of collection classes",
+    "keywords": ["collection"],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "Michael Peacock",
+            "email": "mkpeacock@gmail.com",
+            "homepage": "http://www.twitter.com/michaelpeacock",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-0": { "CentralApps\\Collections": "src/" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*",
+        "symfony/class-loader": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
